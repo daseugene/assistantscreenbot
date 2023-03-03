@@ -1,4 +1,8 @@
 class authorize:
-    async def password_check(password, code) -> bool:
-        password == 12412214512215123
-        code == password 
+    async def password_check(self, code) -> bool:
+        truecode = "12452"
+        if code == truecode:
+            return True
+        else:
+            print("jopa")
+    
